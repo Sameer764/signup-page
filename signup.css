@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign_up{
+    margin-top: 5px;
+    width: 520px;
+    border-radius: 40px;
+    padding: 20px 80px 20px 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 36px 0px #0000001A;
+}
+.form_container{
+    /* position: relative; */
+    /* top: 32px; */
+    margin-top: 18px;
+}
+.heading{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    color: #191D23;
+}
+.label{
+    font-size: 16px;
+    /* margin-top: 4px; */
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4B5768;
+}
+.input{
+    width: 360px;
+    height: 48px;
+    margin: 12px 0px;
+    border-radius: 6px;
+    background: #F7F8F9;
+    border: 1px solid #E7EAEE;
+    width: 360px;
+    padding: 12px 0px 12px 12px;
+    color: #191D23;
+}
+.button_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    gap: 8px;
+}
+.sign_up_btn{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    width: 360px;
+    height: 48px;
+    padding: 16px 8px 16px 8px;
+    gap: 8px;
+    border-radius: 35px;
+    background: #10B981;
+    border: none;
+}
+.Signup_google{
+    width: 360px;
+    height: 48px;
+    padding: 16px 8px 16px 8px;
+    border-radius: 35px;
+    border: none;
+    gap: 8px;
+    background: #191D23;
+    color: #fff;
+}
+.text_login{
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #191D23;
+}
+.login{
+    /* position: relative; */
+    color: #10B981;
+    background: #fff;
+    border: none;
+    position: relative;
+    left: 5px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* top: 0px; */
+    /* margin-top: 21px; */
+}
+.fa-eye-slash{
+    content: "\f070";
+    position: relative;
+    top: -48px;
+    /* right: -318px; */
+    left: 318px;
+}
+.fa-google{
+    content: "\f1a0";
+    position: relative;
+    top: -39px;
+    left: -81px;
+    color: beige;
+}
+.phone{
+    position: relative;
+    left: -23px;
+}
